@@ -1,10 +1,6 @@
 import socket
 import argparse
 import sys
-import getopt
-import threading
-import subprocess
-
 
 parser = argparse.ArgumentParser(usage = '\n--Host (-H) [TARGET-HOST ex. -H 192.168.0.1]\n--Port (-p) [TARGET-PORT (ex. 21)]\n--Type (-t) [TYPE-OF-CONN.]')
 parser.add_argument("-H", "--host", help = 'Give Target Host! (192.168.0.1)', required = True)
